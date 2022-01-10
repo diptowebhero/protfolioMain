@@ -1,0 +1,42 @@
+.about-section {
+  color: #000;
+  background: #F0F0F6;
+}
+.about-section h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.about-section p {
+  text-align: justify;
+  font-size: 17px;
+}
+.social-container a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.social-container {
+  margin: 20px 0;
+}
+.social-container a {
+  height: 35px;
+  width: 35px;
+  border: 1px solid rgba(198, 201, 216, 0.8274509803921568);
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  color: rgb(78 80 90 / 83%);;
+  margin: 0 4px;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.social-container a:hover {
+  transform: translateY(-5px);
+}
+@media only screen and (max-width: 668px) {
+  .about-section img {
+    width: 100%;
+  }
+}
