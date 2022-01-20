@@ -12,17 +12,17 @@ const Navigation = () => {
         expand="lg"
       >
         <Container>
-          <Navbar.Brand href="#home">Dipto Das</Navbar.Brand>
+          <Navbar.Brand href="/"><span className="logo">Dipto</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/home#home">
+              <Nav.Link href="#home" to="/home#home">
                 Home
               </Nav.Link>
               <Nav.Link as={Link} to="/about">
                 About
               </Nav.Link>
-              <Nav.Link as={Link} to="/project">
+              <Nav.Link href="#projects" to="/project">
                 Projects
               </Nav.Link>
               <Nav.Link as={Link} to="/contact">

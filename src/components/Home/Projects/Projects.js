@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="main-section">
       <Container className="mt-5">
         <Fade bottom duration={2500} distance="40px">
-          <Row xs={1} md={3} className="g-4 mt-4">
+          <Row xs={1} md={2} lg={3} className="g-4 mt-4">
             <Col>
               <Card className="shadow-lg">
                 <div className="frame-img">
@@ -25,24 +25,14 @@ const Projects = () => {
                     remove, confirm order, delete order and users can give
                     reviews and monitor their booking list.
                   </Card.Text>
-                  <Card.Text as="Button" className="btn-tech">
-                    React.js
-                  </Card.Text>
-                  <Card.Text as="Button" className="mx-1 btn-tech">
-                    React Bootstrap
-                  </Card.Text>
-                  <Card.Text as="Button" className="mt-2 btn-tech">
-                    Node.js
-                  </Card.Text>
-                  <Card.Text as="Button" className="btn-tech">
-                    Express.js
-                  </Card.Text>
-                  <Card.Text as="Button" className="mt-2 mx-1 btn-tech">
-                    MongoDB
-                  </Card.Text>
-                  <Card.Text as="Button" className="mt-2 btn-tech">
-                    Firebase Authentication
-                  </Card.Text>
+                  <div className="technology">
+                    <span>React.js</span>
+                    <span>React Bootstrap</span>
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                    <span>MongoDB</span>
+                    <span>Firebase Authentication</span>
+                  </div>
                 </Card.Body>
                 <Card.Footer>
                   <a
@@ -81,24 +71,14 @@ const Projects = () => {
                     delete order and users can give reviews and monitor their
                     booking list.
                   </Card.Text>
-                  <Card.Text as="Button" className="btn-tech">
-                    React.js
-                  </Card.Text>
-                  <Card.Text as="Button" className="mx-1 btn-tech">
-                    React Bootstrap
-                  </Card.Text>
-                  <Card.Text as="Button" className="mt-2 btn-tech">
-                    Node.js
-                  </Card.Text>
-                  <Card.Text as="Button" className="btn-tech">
-                    Express.js
-                  </Card.Text>
-                  <Card.Text as="Button" className="mt-2 mx-1 btn-tech">
-                    MongoDB
-                  </Card.Text>
-                  <Card.Text as="Button" className="mt-2 btn-tech">
-                    Firebase Authentication
-                  </Card.Text>
+                  <div className="technology">
+                    <span>React.js</span>
+                    <span>React Bootstrap</span>
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                    <span>MongoDB</span>
+                    <span>Firebase Authentication</span>
+                  </div>
                 </Card.Body>
                 <Card.Footer>
                   <a
@@ -135,15 +115,12 @@ const Projects = () => {
                     accessibity. If the user wants to see the details of the
                     service, then he has to login with the email password
                   </Card.Text>
-                  <Card.Text as="Button" className="btn-tech">
-                    React.js
-                  </Card.Text>
-                  <Card.Text as="Button" className="mx-1 btn-tech">
-                    React Bootstrap
-                  </Card.Text>
-                  <Card.Text as="Button" className="mt-2 btn-tech">
-                    Firebase Authentication
-                  </Card.Text>
+                  <div className="technology">
+                    <span>React.js</span>
+                    <span>React Bootstrap</span>
+
+                    <span>Firebase Authentication</span>
+                  </div>
                 </Card.Body>
                 <Card.Footer>
                   <a

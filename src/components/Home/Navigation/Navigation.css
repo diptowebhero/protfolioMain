@@ -2,3 +2,8 @@ Nav a {
     color: #2b2b2b !important;
     margin-right: 30px;
 }
+span.logo {
+    font-family: 'Parisienne', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}

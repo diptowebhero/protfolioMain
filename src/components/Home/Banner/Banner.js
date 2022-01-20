@@ -8,7 +8,6 @@ import Fade from "react-reveal/Fade";
 const Banner = () => {
   const particlesInit = (main) => {
     console.log(main);
-
   };
 
   const particlesLoaded = (container) => {
@@ -17,7 +16,7 @@ const Banner = () => {
   return (
     <Container className="mt-5">
       <Particles
-        id="tsparticles"
+        class="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
@@ -93,15 +92,15 @@ const Banner = () => {
           detectRetina: true,
         }}
       />
-      <Row className="w-100 mx-auto align-items-center">
-        <Col md={6} sm={12}>
+      <Row className="w-100 mx-auto banner align-items-center">
+        <Col lg={6} md={12} sm={12}>
           <Fade left duration={2000} distance="40px">
             <div className="banner-text">
               <h2>Hi, I'm</h2>
               <h2>Dipto Das</h2>
               <h3>
                 I'm{" "}
-                <span>
+                <span className="highlight">
                   <Typewriter
                     words={[
                       "React Developer",
@@ -133,7 +132,7 @@ const Banner = () => {
             </div>
           </Fade>
         </Col>
-        <Col md={6} sm={12}>
+        <Col lg={6} md={12} sm={12}>
           <Fade right duration={2000} distance="40px">
             <img src={bannerImg} className="images" alt="" />
           </Fade>

@@ -7,7 +7,7 @@ import Projects from "./Home/Projects/Projects";
 
 const TabsProject = () => {
   return (
-    <Container>
+    <Container id="projects">
       <div className="project mt-5">
         <h2 className="text-center">
           Some of <span>My Projects</span>

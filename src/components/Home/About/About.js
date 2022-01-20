@@ -8,12 +8,12 @@ const About = () => {
     <section id="about" className="about-section">
       <Container>
         <Row className="align-items-center">
-          <Col md={6} sm={12}>
+          <Col lg={6} md={12} sm={12}>
             <Fade right duration={2000} distance="40px">
               <img src={aboutImg} className="img fluid" alt="" />
             </Fade>
           </Col>
-          <Col md={6} sm={12}>
+          <Col lg={6} md={12} sm={12}>
             <Fade left duration={2000} distance="40px">
               <div>
                 <h2>About Me</h2>
